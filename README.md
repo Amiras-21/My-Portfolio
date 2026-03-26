@@ -1,65 +1,78 @@
-# My Portfolio Website - Overview 🚀
+# 🌐 My Portfolio Website
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+## 🚀 Live Demo
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Amiras Sarvaiya
+https://your-live-link.com
 
 ---
 
-## 🛠️ Instructions
+## 📌 About This Project
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+This is my personal portfolio website built to showcase my skills, projects, and experience as a **MERN Stack Developer**.
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+The goal of this project is to create a modern, interactive, and visually appealing platform using animations and 3D elements.
 
 ---
 
-## ⚙️ Tech Stack
+## ✨ Features
 
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+* Interactive UI with smooth animations
+* 3D elements using Three.js
+* Fully responsive design
+* Project showcase section
+* Contact section
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript / TypeScript
+* GSAP (Animations)
+* Three.js (3D Graphics)
+* HTML5 & CSS3
+
+---
+
+## 📷 Preview
+
+(Add your portfolio screenshot here)
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 👨‍💻 My Role
+
+* Designed and developed the frontend
+* Implemented animations using GSAP
+* Integrated 3D elements using Three.js
+* Optimized performance and responsiveness
+
+---
+
+## 📢 Usage
+
+This project is intended for learning and inspiration.
+
+You are welcome to explore the code, but please do not copy or redistribute the full project as your own. Instead, use it as a reference to build your own portfolio.
+
+---
+
+## 📬 Contact
+
+* GitHub: https://github.com/Amiras-21
+* Email: [amirassarvaiya@gmail.com](mailto:amirassarvaiya@gmail.com)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+This project is licensed under the MIT License.

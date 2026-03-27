@@ -18,6 +18,18 @@ const projects = [
     category: "Backend System",
     description: "Developed REST APIs for driver, company, and route management. Implemented JWT authentication and role-based authorization. Designed highly optimized MongoDB schemas with indexing. Successfully deployed the system on AWS (EC2, S3, CloudFront) using CI/CD pipelines with GitHub Actions.",
     tools: "Node.js, Express.js, MongoDB, AWS, GitHub Actions"
+  },
+  {
+  name: "AI Profile-Based Chatbot",
+  category: "AI & Full Stack Application",
+  description: "Developed an AI-powered chatbot with profile-based conversations for personalized responses. Integrated OpenAI API for prompt enhancement and built a code interpreter for debugging and suggestions. Implemented contextual memory, dynamic Q&A, and user authentication. Designed scalable backend APIs and responsive UI.",
+  tools: "Next.js, Node.js, Express.js, MongoDB, OpenAI API, Tailwind CSS"
+  },
+  {
+  name: "StudentHub",
+  category: "EdTech SaaS Platform",
+  description: "Developed a full-stack student opportunity platform with advanced search, application tracking, and personalized recommendations. Built admin dashboard to manage users, opportunities, and analytics. Implemented gamification (points, streaks, referrals), and secure multi-platform authentication with RBAC.",
+  tools: "React.js, Next.js, Node.js, Express.js, MongoDB, React Native, Firebase, Cloudinary"
   }
 ];
 

@@ -22,6 +22,24 @@ export function setCharTimeline(
     },
   });
 
+  // The landing circles use an infinite CSS keyframe animation on large
+  // blurred fixed elements; pause it once landing scrolls out of view so the
+  // browser isn't repainting a blur filter for the rest of the session.
+  ScrollTrigger.create({
+    trigger: ".landing-section",
+    start: "bottom top",
+    onLeave: () => {
+      document
+        .querySelectorAll<HTMLElement>(".landing-circle1, .landing-circle2")
+        .forEach((el) => (el.style.animationPlayState = "paused"));
+    },
+    onEnterBack: () => {
+      document
+        .querySelectorAll<HTMLElement>(".landing-circle1, .landing-circle2")
+        .forEach((el) => (el.style.animationPlayState = "running"));
+    },
+  });
+
   const tl2 = gsap.timeline({
     scrollTrigger: {
       trigger: ".about-section",

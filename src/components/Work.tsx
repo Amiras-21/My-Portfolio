@@ -11,13 +11,29 @@ const projects = [
     name: "EvoqPulse",
     category: "HR & Attendance Platform",
     description: "Developed RESTful APIs for employee, attendance, and leave management. Built QR-based attendance system with geolocation verification and implemented JWT authentication with RBAC. Designed MongoDB schemas and integrated email notifications for HR workflows. Assisted in AWS deployment.",
-    tools: "Node.js, Express.js, MongoDB, AWS, JWT"
+    tools: "Node.js, Express.js, MongoDB, AWS, JWT",
+    image: "/images/EvoqPulse.png"
   },
   {
     name: "Logistics Management System",
     category: "Backend System",
     description: "Developed REST APIs for driver, company, and route management. Implemented JWT authentication and role-based authorization. Designed highly optimized MongoDB schemas with indexing. Successfully deployed the system on AWS (EC2, S3, CloudFront) using CI/CD pipelines with GitHub Actions.",
-    tools: "Node.js, Express.js, MongoDB, AWS, GitHub Actions"
+    tools: "Node.js, Express.js, MongoDB, AWS, GitHub Actions",
+    image: "/images/Logistic Management System.png"
+  },
+  {
+  name: "AI Profile-Based Chatbot",
+  category: "AI & Full Stack Application",
+  description: "Developed an AI-powered chatbot with profile-based conversations for personalized responses. Integrated OpenAI API for prompt enhancement and built a code interpreter for debugging and suggestions. Implemented contextual memory, dynamic Q&A, and user authentication. Designed scalable backend APIs and responsive UI.",
+  tools: "Next.js, Node.js, Express.js, MongoDB, OpenAI API, Tailwind CSS",
+  image: "/images/Chatbot.png"
+  },
+  {
+  name: "StudentHub",
+  category: "EdTech SaaS Platform",
+  description: "Developed a full-stack student opportunity platform with advanced search, application tracking, and personalized recommendations. Built admin dashboard to manage users, opportunities, and analytics. Implemented gamification (points, streaks, referrals), and secure multi-platform authentication with RBAC.",
+  tools: "React.js, Next.js, Node.js, Express.js, MongoDB, React Native, Firebase, Cloudinary",
+  image: "/images/StudentHub.png"
   }
 ];
 
@@ -88,7 +104,7 @@ const Work = () => {
                 <h4 style={{ marginTop: "20px" }}>Tools & Features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt={project.name} />
+              <WorkImage image={project.image} alt={project.name} />
             </div>
           ))}
         </div>

@@ -56,7 +56,8 @@
   font-size: 15px;
   line-height: 15px;
   font-weight: 600;
-  color: #5e5e5e;
+  /* color: #5e5e5e; */
+  color: #fff;
   cursor: pointer;
   transition: 0.5s;
   transform-origin: left bottom;
